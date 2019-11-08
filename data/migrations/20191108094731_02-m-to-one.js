@@ -4,7 +4,7 @@ exports.up = function(knex) {
       tbl.string('description').notNullable()
       tbl.text('notes')
       tbl.boolean('completed').defaultTo(false)
-      //foregin key
+      //foreign key
       tbl
           .integer('project_id')
           .unsigned()
