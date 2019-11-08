@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "server": "nodemon index.js",
-    "start":"node index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/Oluwa-Femi/node-db-challenge/issues"
   },
-  "homepage": "https://github.com/Oluwa-Femi/node-db-challenge#readme"
+  "homepage": "https://github.com/Oluwa-Femi/node-db-challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "knex": "^0.20.1",
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
 }
