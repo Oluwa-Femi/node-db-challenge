@@ -40,11 +40,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+Relational databases is the software itself; it manages storage, querying, updating etc. while SQL is used to access data from Relational databases
+
 - [ ] Why do tables need a `primary key`?
+
+To uniquely identify rows
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+A foreign key
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+
+We need a one-to-many relationship between the tables by using another table named join table. Each record in a join table includes a match field that contains the value of the primary keys of the two tables it joins. (In the join table, these match fields are foreign keys.) These foreign key fields are populated with data as records in the join table are created from either table it joins.
 
 ## Minimum Viable Product
 
